@@ -1,18 +1,20 @@
 .navbar {
   background-color: #171717;
   color: white;
-  height: 5em;
+  height: 4.5em;
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   height: inherit;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile_img {
   border-radius: 50%;
-  height: 4em;
+  height: 3.5em;
   margin: 0.5em;
   transition: 0.25s;
 }
@@ -22,10 +24,11 @@
 }
 
 .list {
+  padding: 0;
   list-style-type: none;
   float: right;
   display: inline;
-  margin: 1.95em 0em;
+  margin: 1.5em 0em;
   font-weight: bold;
 }
 
