@@ -12,7 +12,7 @@ const NavigationBar: React.FC = () => {
         <img
           className={styles.profile_img}
           src={PROFILE_IMG}
-          alt="Profile Of Xuejin Gao"
+          alt="Xuejin Gao's Logo"
         />
 
         <ul className={styles.list}>
