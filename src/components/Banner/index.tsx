@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./styles.module.css";
 
 import PROFILE_IMAGE from "../../constant/images/xg_logo.jpeg";
+import Icon from "../Icon";
 
 const Banner: React.FC = () => {
   return (
@@ -27,11 +28,26 @@ const Banner: React.FC = () => {
               omnis porro nesciunt nostrum ut explicabo?
             </p>
 
-            <ul className={styles.linkContainer}>
+            <div className={styles.linkContainer}>
+              <Icon />
+              <Icon />
+              <Icon />
+            </div>
+
+            {/* <ul className={styles.linkContainer}>
               <li className={styles.link}>Icon</li>
               <li className={styles.link}>Icon</li>
               <li className={styles.link}>Icon</li>
-            </ul>
+              <li className={styles.link}>
+                <Icon />
+              </li>
+              <li>
+                <Icon />
+              </li>
+              <li>
+                <Icon />
+              </li>
+            </ul> */}
           </div>
         </div>
       </div>
