@@ -3,10 +3,14 @@ import React from "react";
 // import './App.css';
 
 import NavigationBar from "./components/NavigationBar";
+import Banner from "./components/Banner";
 
 function App() {
   return (
-    <NavigationBar />
+    <>
+      <NavigationBar />
+      <Banner />
+    </>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
