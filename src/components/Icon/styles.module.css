@@ -1,0 +1,11 @@
+.icon {
+  margin: 0 0.15em;
+  display: inline;
+  padding: 10px;
+  transition: 500ms;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  background-color: #b9b9b9;
+}
