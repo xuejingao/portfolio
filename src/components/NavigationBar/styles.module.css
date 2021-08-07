@@ -41,7 +41,7 @@
 
 .listItem::after {
   content: "";
-  top: 1.25em;
+  top: 1.45em;
   left: 0;
   position: absolute;
   width: 100%;
