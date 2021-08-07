@@ -1,11 +1,12 @@
 .container {
   height: 40em;
-  background-image: url("../../constant/images/matteblackkb.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url("../../constant/images/matteblackkb.jpeg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   /* background-attachment: fixed; */
   /* color: #fff; */
-  color: black;
+  color: #010101;
+  background-color: #171717;
 
   display: flex;
   justify-content: space-around;
@@ -15,14 +16,17 @@
   width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
+  /* justify-content: space-between; */
 }
 
 .profile_pic {
   height: 20em;
   /* width: 100%; */
   border-radius: 50%;
-  box-shadow: 0 0 30px #ccc, 0 0 30px #ccc;
+  /* box-shadow: 0 0 30px #ccc, 0 0 30px #ccc; */
+  /* box-shadow: 0 0 30px #ccc; */
   margin: 0 1.75em;
 }
 
@@ -34,7 +38,8 @@
 
 .bio {
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
+  /* background-color: rgba(255, 255, 255, 0.8); */
   border-radius: 1em;
   padding: 1em 1.5em 0.5em 1.5em;
   min-height: auto;

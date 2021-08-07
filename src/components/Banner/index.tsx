@@ -2,22 +2,18 @@ import React from "react";
 
 import styles from "./styles.module.css";
 
-import PROFILE_IMAGE from "../../constant/images/xg_logo.jpeg";
+// import PROFILE_IMAGE from "../../constant/images/xg_logo.jpeg";
 import Icon from "../Icon";
 
 const Banner: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <img
+        {/* <img
           className={styles.profile_pic}
           src={PROFILE_IMAGE}
           alt="PROFILE OF XUEJIN GAO"
-        />
-
-        {/* TODO:
-          Still need to fix the dynamic height allocation for the bio
-        */}
+        /> */}
         <div className={styles.bioContainer}>
           <div className={styles.bio}>
             <h3 className={styles.name}>Xuejin Gao</h3>
