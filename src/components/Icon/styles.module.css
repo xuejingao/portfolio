@@ -1,7 +1,7 @@
 .icon {
   margin: 0.15em 0.15em;
   display: inline;
-  padding: 10px;
+  padding: 0.5em;
   transition: 500ms;
   border-radius: 50%;
 }
