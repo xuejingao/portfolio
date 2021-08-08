@@ -16,6 +16,7 @@ const NavigationBar: React.FC = () => {
         />
 
         <ul className={styles.list}>
+          <li className={styles.listItem}>About Me</li>
           <li className={styles.listItem}>Projects</li>
           <li className={styles.listItem}>Blog</li>
           <li className={styles.listItem}>Contact</li>
