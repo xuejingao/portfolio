@@ -1,11 +1,14 @@
 .icon {
   margin: 0.15em 0.15em;
   display: inline;
-  padding: 0.5em;
+  padding: 0.25em;
   transition: 500ms;
   border-radius: 50%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .icon:hover {
-  background-color: #b9b9b9;
+  background-color: #525252;
 }
