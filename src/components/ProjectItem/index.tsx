@@ -13,6 +13,7 @@ export type ProjectItemProps = {
   description: string;
   stack?: string[];
   lines?: number;
+  iconSize?: number;
 };
 
 const ProjectItem: React.FC<ProjectItemProps> = ({
@@ -21,6 +22,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
   end = null,
   description,
   stack = [],
+  iconSize = 20,
   lines = null,
 }) => {
   const styling = {
@@ -50,7 +52,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
         <tr>
           <td className={styles.icons}>
             {stack.map((stackItem) => (
-              <Icon size={20}>{TECH_STACK[stackItem]}</Icon>
+              <Icon size={iconSize}>{TECH_STACK[stackItem]}</Icon>
             ))}
           </td>
         </tr>
