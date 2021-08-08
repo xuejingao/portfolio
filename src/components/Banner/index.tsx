@@ -2,7 +2,6 @@ import React from "react";
 
 import styles from "./styles.module.css";
 
-// import PROFILE_IMAGE from "../../constant/images/xg_logo.jpeg";
 import Icon from "../Icon";
 
 import { CONTACT_STACK } from "../../constant/svgComponents";
@@ -29,25 +28,16 @@ const Banner: React.FC = () => {
             </p>
 
             <div className={styles.linkContainer}>
-              <Icon size={LOGO_SIZE}>{CONTACT_STACK["github"]}</Icon>
-              <Icon size={LOGO_SIZE}>{CONTACT_STACK["linkedin"]}</Icon>
-              <Icon size={LOGO_SIZE}>{CONTACT_STACK["mail"]}</Icon>
+              <Icon size={LOGO_SIZE} link="https://github.com/xuejingao">
+                {CONTACT_STACK["github"]}
+              </Icon>
+              <Icon size={LOGO_SIZE} link="https://linkedin.com/in/xuejingao">
+                {CONTACT_STACK["linkedin"]}
+              </Icon>
+              <Icon size={LOGO_SIZE} link="mailto:gxuejin13@gmail.com">
+                {CONTACT_STACK["mail"]}
+              </Icon>
             </div>
-
-            {/* <ul className={styles.linkContainer}>
-              <li className={styles.link}>Icon</li>
-              <li className={styles.link}>Icon</li>
-              <li className={styles.link}>Icon</li>
-              <li className={styles.link}>
-                <Icon />
-              </li>
-              <li>
-                <Icon />
-              </li>
-              <li>
-                <Icon />
-              </li>
-            </ul> */}
           </div>
         </div>
       </div>
