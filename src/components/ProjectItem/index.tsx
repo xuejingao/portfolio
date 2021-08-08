@@ -8,6 +8,7 @@ import { TECH_STACK } from "../../constant/svgComponents";
 
 export type ProjectItemProps = {
   title: string;
+  link?: string;
   start: string;
   end?: string;
   description: string;
@@ -18,6 +19,7 @@ export type ProjectItemProps = {
 
 const ProjectItem: React.FC<ProjectItemProps> = ({
   title,
+  link = "https://github.com/xuejingao",
   start,
   end = null,
   description,
@@ -38,7 +40,9 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
       <tbody>
         <tr>
           <td className={styles.title}>
-            <a href="_blank">{title}</a>
+            <a href={link} rel="noreferrer" target="_blank">
+              {title}
+            </a>
           </td>
         </tr>
         <tr>
@@ -52,7 +56,9 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
         <tr>
           <td className={styles.icons}>
             {stack.map((stackItem) => (
-              <Icon size={iconSize}>{TECH_STACK[stackItem]}</Icon>
+              <Icon size={iconSize} link={link}>
+                {TECH_STACK[stackItem]}
+              </Icon>
             ))}
           </td>
         </tr>
