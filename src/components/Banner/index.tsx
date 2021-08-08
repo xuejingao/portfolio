@@ -5,6 +5,10 @@ import styles from "./styles.module.css";
 // import PROFILE_IMAGE from "../../constant/images/xg_logo.jpeg";
 import Icon from "../Icon";
 
+import { CONTACT_STACK } from "../../constant/svgComponents";
+
+const LOGO_SIZE = 30;
+
 const Banner: React.FC = () => {
   return (
     <div className={styles.container}>
@@ -25,9 +29,9 @@ const Banner: React.FC = () => {
             </p>
 
             <div className={styles.linkContainer}>
-              <Icon />
-              <Icon />
-              <Icon />
+              <Icon size={LOGO_SIZE}>{CONTACT_STACK["github"]}</Icon>
+              <Icon size={LOGO_SIZE}>{CONTACT_STACK["linkedin"]}</Icon>
+              <Icon size={LOGO_SIZE}>{CONTACT_STACK["mail"]}</Icon>
             </div>
 
             {/* <ul className={styles.linkContainer}>
