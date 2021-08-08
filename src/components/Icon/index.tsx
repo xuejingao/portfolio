@@ -10,17 +10,15 @@ export interface IconProps {
   children: ReactElement;
 }
 
-const Icon: React.FC<IconProps> = ({
-  size,
-  link = "https://github.com/xuejingao",
-  children,
-}) => {
+const Icon: React.FC<IconProps> = ({ size, link = null, children }) => {
   const styling = {
     fontSize: size,
   };
 
   const handleClick = () => {
-    openInNewTab(link);
+    if (link) {
+      openInNewTab(link);
+    }
   };
 
   return (
