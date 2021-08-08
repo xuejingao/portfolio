@@ -55,8 +55,8 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
         </tr>
         <tr>
           <td className={styles.icons}>
-            {stack.map((stackItem) => (
-              <Icon size={iconSize} link={link}>
+            {stack.map((stackItem, index) => (
+              <Icon size={iconSize} link={link} key={index}>
                 {TECH_STACK[stackItem]}
               </Icon>
             ))}
