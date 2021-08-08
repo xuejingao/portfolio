@@ -20,7 +20,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
   start,
   end = null,
   description,
-  stack = ["typescript"],
+  stack = [],
   lines = null,
 }) => {
   const styling = {
