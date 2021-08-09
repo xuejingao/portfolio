@@ -19,7 +19,7 @@ export type ProjectItemProps = {
 
 const ProjectItem: React.FC<ProjectItemProps> = ({
   title,
-  link = "https://github.com/xuejingao",
+  link = "https://github./xuejingao",
   start,
   end = null,
   description,
@@ -56,7 +56,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
         <tr>
           <td className={styles.icons}>
             {stack.map((stackItem, index) => (
-              <Icon size={iconSize} link={link} key={index}>
+              <Icon size={iconSize} key={index}>
                 {TECH_STACK[stackItem]}
               </Icon>
             ))}
