@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "title": "Pillminder" ,
+      "start": "Jan 2021" ,
+      "description": "A web application used to assit in medication management, particularly among the elderly.",
+      "stack": ["react", "nodejs"],
+      "link": "https://github.com/CUNY-Hackathon-2021/Pillminder"
+    },
+    {
+      "title": "Face-Mask Detection" ,
+      "start": "Oct 2020" ,
+      "end": "Dec 2020",
+      "description": "Analyzing different machine learning algorithms for an image classifcation.",
+      "stack": ["python", "tensorflow", "flask"],
+      "link": "https://github.com/sdhani/face-mask-detection"
+    },
+    {
+      "title": "ASL-Translator" ,
+      "start": "Nov 2020" ,
+      "end": "Dec 2020",
+      "description": "To alleviate the miscommunication between those who don't understand ASL and those who do, this is a web application that translate an image of the ASL to its corresponding letter.",
+      "stack": ["python", "tensorflow", "flask"],
+      "link": "https://github.com/CTP-Team-MLXG/ASL-T"
+    }
+  ]
+}
