@@ -13,10 +13,10 @@ export type NavBarProps = {
 };
 
 const NavigationBar: React.FC<NavBarProps> = ({
-  landing,
-  about,
-  projects,
-  blog,
+  landing = true,
+  about = true,
+  projects = true,
+  blog = true,
 }) => {
   const history = useHistory();
 
