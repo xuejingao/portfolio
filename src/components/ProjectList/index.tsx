@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 import ProjectItem from "../ProjectItem";
 
-import data from "../../constant/data/projects.json";
+import data from "../../constant/data/data.json";
 
 const PROJECT_DATA = data["projects"];
 const project_data_length: number = PROJECT_DATA.length / 2;
