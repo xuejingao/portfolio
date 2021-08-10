@@ -54,14 +54,16 @@
 
 .description {
   margin: 0;
+  text-align: center;
 }
 
 .linkContainer {
   /* border: 2px red solid; */
   display: flex;
   padding: 0;
-  width: 95%;
-  margin: auto;
+  width: 50%;
+  margin: 1em auto;
+  justify-content: space-evenly;
 }
 
 .link {
@@ -72,6 +74,6 @@
   transition: 500ms;
 }
 
-.link:hover {
+/* .link:hover {
   background-color: #525252;
-}
+} */
