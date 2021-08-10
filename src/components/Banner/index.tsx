@@ -6,7 +6,7 @@ import Icon from "../Icon";
 
 import { CONTACT_STACK } from "../../constant/svgComponents";
 
-import PROFILE_IMAGE from "../../constant/images/matteblackkb.jpeg";
+import PROFILE_IMAGE from "../../constant/images/promprofile.jpg";
 
 const LOGO_SIZE = 30;
 
