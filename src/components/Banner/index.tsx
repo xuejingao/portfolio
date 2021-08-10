@@ -20,7 +20,7 @@ export type BannerProps = {
 const Banner: React.FC<BannerProps> = ({
   displayImage,
   displayIcons,
-  title = "Xuejin Gao",
+  title = "",
   description = `About me Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quos quibusdam provident, ea ipsa culpa, eum, itaque deleniti cum repellendus architecto ducimus possimus voluptas omnis porro nesciunt nostrum ut explicabo?`,
 }) => {
   return (
