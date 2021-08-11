@@ -1,0 +1,23 @@
+.scrollTop {
+  font-size: 4em;
+  padding: 0 0.5em 0.5em 0;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+
+/* .arrow {
+  font-size: 10em;
+  border: 2px red solid;
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
