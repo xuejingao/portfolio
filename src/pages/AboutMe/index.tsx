@@ -4,6 +4,7 @@ import NavigationBar from "../../components/NavigationBar";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import List from "../../components/List";
+import ScrollToTop from "../../components/ScrollToTop";
 
 import EXPERIENCE_DATA from "../../constant/data/experiences.json";
 
@@ -22,6 +23,7 @@ const AboutMePage = () => {
       />
       <List title={"Experience"} dataList={experience} />
       <Footer />
+      <ScrollToTop />
     </>
   );
 };
