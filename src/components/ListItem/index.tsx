@@ -6,7 +6,7 @@ import Icon from "../Icon";
 
 import { TECH_STACK } from "../../constant/svgComponents";
 
-export type ProjectItemProps = {
+export type ListItemProps = {
   title: string;
   link?: string;
   start: string;
@@ -17,7 +17,7 @@ export type ProjectItemProps = {
   iconSize?: number;
 };
 
-const ProjectItem: React.FC<ProjectItemProps> = ({
+const ListItem: React.FC<ListItemProps> = ({
   title,
   link = "https://github./xuejingao",
   start,
@@ -67,4 +67,4 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
   );
 };
 
-export default ProjectItem;
+export default ListItem;
