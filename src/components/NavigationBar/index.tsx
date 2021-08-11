@@ -21,16 +21,24 @@ const NavigationBar: React.FC<NavBarProps> = ({
   const history = useHistory();
 
   const landingButton = () => {
-    if (landing) history.push("/");
+    if (landing) {
+      history.push("/");
+    }
   };
   const aboutMeButton = () => {
-    if (about) history.push("/about");
+    if (about) {
+      history.push("/about");
+    }
   };
   const projectButton = () => {
-    if (projects) history.push("/projects");
+    if (projects) {
+      history.push("/projects");
+    }
   };
   const blogButton = () => {
-    if (blog) history.push("/blog");
+    if (blog) {
+      history.push("/blog");
+    }
   };
 
   return (
