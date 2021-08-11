@@ -22,7 +22,7 @@
   height: 10px;
   background-color: #cccccc;
   border-radius: 2em;
-  top: 1.25em;
+  top: 1.45em;
   left: 0;
 }
 
@@ -31,6 +31,6 @@
   justify-content: space-between;
 } */
 
-.projectItem {
+.listItem {
   width: 50%;
 }
