@@ -1,7 +1,17 @@
 import React from "react";
 
+import NavigationBar from "../../components/NavigationBar";
+import List from "../../components/List";
+import Footer from "../../components/Footer";
+
 const ProjectsPage = () => {
-  return <h1>Projects Page</h1>;
+  return (
+    <>
+      <NavigationBar projects />
+      <List />
+      <Footer />
+    </>
+  );
 };
 
 export default ProjectsPage;
