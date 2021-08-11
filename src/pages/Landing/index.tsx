@@ -4,9 +4,6 @@ import NavigationBar from "../../components/NavigationBar";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 
-import data from "../../constant/data/data.json";
-console.log(data);
-
 const LandingPage = () => {
   return (
     <>

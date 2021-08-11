@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 import ListItem from "../ListItem";
 
-import data from "../../constant/data/data.json";
+import data from "../../constant/data/projects.json";
 
 const PROJECT_DATA = data["projects"];
 // const ITEMS_PER_ROW = 2;
@@ -16,7 +16,7 @@ const PROJECT_DATA = data["projects"];
 // const LINES = 2;
 
 export type ListProps = {
-  title?: string;
+  title: string;
   dataList?: Array<any>;
   cols?: number;
   lines?: number;
@@ -24,7 +24,7 @@ export type ListProps = {
 };
 
 const List: React.FC<ListProps> = ({
-  title = "Projects",
+  title,
   dataList = PROJECT_DATA,
   cols = 1,
   lines = 0,
