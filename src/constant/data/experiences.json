@@ -5,6 +5,7 @@
       "start": "Jun 2020",
       "end": "Aug 2021",
       "description": "Construted an image classification web application to help mitgate the miscommunication between those who do and don't understand ASL.",
+      "stack": ["python", "tensorflow"],
       "link": null
     },
     {
@@ -12,6 +13,7 @@
       "start": "Jun 2018",
       "end": "Aug 2018",
       "description": "Made the company's landing page more interactive and led workshops for fellow interns.",
+      "stack" : ["html", "css", "javascript"],
       "link": null
     }
   ]
