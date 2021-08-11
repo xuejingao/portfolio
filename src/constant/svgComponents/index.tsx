@@ -16,10 +16,15 @@ import {
   SiFlask,
 } from "react-icons/si";
 import { TiMail } from "react-icons/ti";
+import { ImArrowUp } from "react-icons/im";
 import { ReactElement } from "react";
 
 type STACK_OPTIONS = {
   [key: string]: ReactElement;
+};
+
+export const DESIGN_STACK: STACK_OPTIONS = {
+  arrowUp: <ImArrowUp />,
 };
 
 export const TECH_STACK: STACK_OPTIONS = {
