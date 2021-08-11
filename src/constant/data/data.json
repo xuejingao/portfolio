@@ -23,5 +23,15 @@
       "stack": ["python", "tensorflow", "flask"],
       "link": "https://github.com/CTP-Team-MLXG/ASL-T"
     }
+  ],
+  "experience": [
+    {
+      "company": "company",
+      "title": "title",
+      "start": "date",
+      "end": null,
+      "description": "job description",
+      "link": null
+    }
   ]
 }
