@@ -2,6 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 import PROFILE_IMG from "../../constant/images/xg_logo.jpeg";
+// import Contact from "../Contact";
 
 import styles from "./styles.module.css";
 
@@ -19,6 +20,8 @@ const NavigationBar: React.FC<NavBarProps> = ({
   blog = true,
 }) => {
   const history = useHistory();
+
+  // const [showModal, setShowModal] = useState(false);
 
   const landingButton = () => {
     if (landing) {
@@ -41,6 +44,14 @@ const NavigationBar: React.FC<NavBarProps> = ({
     }
   };
 
+  // const displayContact = () => {
+  //   setShowModal(true);
+  // };
+
+  // const hideContact = () => {
+  //   setShowModal(false);
+  // };
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
@@ -61,9 +72,12 @@ const NavigationBar: React.FC<NavBarProps> = ({
           <li className={styles.listItem} onClick={blogButton}>
             Blog
           </li>
-          <li className={styles.listItem}>Contact</li>
+          <li className={styles.listItem} onClick={landingButton}>
+            Contact
+          </li>
         </ul>
       </div>
+      {/* <Contact show={showModal} closeFunction={hideContact} /> */}
     </nav>
   );
 };
