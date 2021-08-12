@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "title": "Hunter College - Computer Science, cum laude",
+      "start": "Aug 2017",
+      "end": "May 2021",
+      "description": null,
+      "stack": ["cpp"],
+      "link": null
+    },
+    {
+      "title": "Brooklyn Technical Highschool",
+      "start": "Sept 2013",
+      "end": "Jun 2017",
+      "description": null,
+      "stack" : ["html", "css", "javascript"],
+      "link": null
+    }
+  ]
+}
