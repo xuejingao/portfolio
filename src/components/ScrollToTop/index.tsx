@@ -28,8 +28,13 @@ const ScrollToTop: React.FC = () => {
     }
   };
 
+  // window.addEventListener("scroll", toggleVisibility);
+
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
+    const addEvent = async () => {
+      await window.addEventListener("scroll", toggleVisibility);
+    };
+    addEvent();
   }, []);
 
   return (
