@@ -1,0 +1,46 @@
+.container {
+  display: relative;
+  z-index: 10;
+  width: 40%;
+  margin: 3em auto;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.iconContainer {
+  width: 10%;
+  margin-left: 90%;
+}
+
+.closeIcon {
+  font-size: 2em;
+  transition: 0.75s;
+  padding: 0.15em;
+  border-radius: 50%;
+}
+
+.closeIcon:hover {
+  transform: rotate(180deg);
+  background-color: #aaaaaa;
+}
+
+/* .closeIcon { */
+/* width: 10%;
+  position: relative;
+  right: 0%;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  transition: 0.25s;
+  padding: 0;
+  margin: 0; */
+/* } */
+
+/* .closeIcon:hover {
+  border-radius: 50%;
+  background-color: #525252;
+}
+
+.contact {
+  margin: 20px;
+} */
