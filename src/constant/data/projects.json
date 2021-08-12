@@ -3,7 +3,7 @@
     {
       "title": "Pillminder" ,
       "start": "Jan 2021" ,
-      "description": "A web application used to assit in medication management, particularly among the elderly.",
+      "description": "A web application used to assist in medication management, particularly among the elderly; by reading labels and sending text messages so there is one less thing to worry about.",
       "stack": ["react", "nodejs"],
       "link": "https://github.com/CUNY-Hackathon-2021/Pillminder"
     },
@@ -11,7 +11,7 @@
       "title": "Face-Mask Detection" ,
       "start": "Oct 2020" ,
       "end": "Dec 2020",
-      "description": "Analyzing different machine learning algorithms for an image classifcation.",
+      "description": "Analyzed different machine learning algorithms for an image classifcation task. Compared accuracies: SVM 93%, CNN 97%, KNN 86%, and Decision Trees 84%",
       "stack": ["python", "tensorflow", "flask"],
       "link": "https://github.com/sdhani/face-mask-detection"
     },
