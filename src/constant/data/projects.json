@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Pillminder" ,
+      "title": "Pillminder - CUNY Hacks" ,
       "start": "Jan 2021" ,
       "description": "A web application used to assist in medication management, particularly among the elderly; by reading labels and sending text messages so there is one less thing to worry about.",
       "stack": ["react", "nodejs"],
