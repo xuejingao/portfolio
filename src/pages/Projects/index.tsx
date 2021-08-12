@@ -13,7 +13,7 @@ const ProjectsPage = () => {
   return (
     <>
       <NavigationBar projects />
-      <List title={"Projects"} dataList={projects} />
+      <List title={"Projects"} dataList={projects} cols={2} lines={0} />
       <Footer />
       <ScrollToTop />
     </>
