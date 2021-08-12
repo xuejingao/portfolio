@@ -17,6 +17,7 @@ import {
 } from "react-icons/si";
 import { TiMail } from "react-icons/ti";
 import { ImArrowUp } from "react-icons/im";
+import { VscChromeClose } from "react-icons/vsc";
 import { ReactElement } from "react";
 
 type STACK_OPTIONS = {
@@ -25,6 +26,7 @@ type STACK_OPTIONS = {
 
 export const DESIGN_STACK: STACK_OPTIONS = {
   arrowUp: <ImArrowUp />,
+  close: <VscChromeClose />,
 };
 
 export const TECH_STACK: STACK_OPTIONS = {
