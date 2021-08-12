@@ -1,0 +1,19 @@
+{
+  "extracurriculars": [
+    {
+      "title": "CTP Hackathon - Organizer" ,
+      "start": "Jun 2021" ,
+      "end": "Aug 2021",
+      "description": "Recruited and managed 15+ mentors to help a cohort of 140+ students during the week long hackathon.",
+      "stack": [],
+      "link": "ctphomehacks.com"
+    },
+    {
+      "title": "CodePath - Student" ,
+      "start": "Aug 2021" ,
+      "description": "Participated in multiple courses from IOS development, Software Engineering, and Cybersecurity.",
+      "stack": [],
+      "link": "ctphomehacks.com"
+    }
+  ]
+}

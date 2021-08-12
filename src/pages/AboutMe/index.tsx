@@ -7,8 +7,10 @@ import List from "../../components/List";
 import ScrollToTop from "../../components/ScrollToTop";
 
 import EXPERIENCE_DATA from "../../constant/data/experiences.json";
+import EXTRACURRICULAR_DATA from "../../constant/data/extracurricular.json";
 
 const experience = EXPERIENCE_DATA["experience"];
+const extracurriculars = EXTRACURRICULAR_DATA["extracurriculars"];
 
 const AboutMePage = () => {
   return (
@@ -22,6 +24,7 @@ const AboutMePage = () => {
         `}
       />
       <List title={"Experience"} dataList={experience} />
+      <List title={"Extracurricular"} dataList={extracurriculars} />
       <Footer />
       <ScrollToTop />
     </>
