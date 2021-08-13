@@ -22,7 +22,11 @@ const Icon: React.FC<IconProps> = ({ size, link = null, children }) => {
   };
 
   return (
-    <div className={styles.icon} style={styling} onClick={handleClick}>
+    <div
+      className={`${styles.icon} ${link ? styles.clickable : null}`}
+      style={styling}
+      onClick={handleClick}
+    >
       {children}
     </div>
   );

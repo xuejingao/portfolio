@@ -12,3 +12,7 @@
 .icon:hover {
   background-color: #525252;
 }
+
+.clickable {
+  cursor: pointer;
+}
