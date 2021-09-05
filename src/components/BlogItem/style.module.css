@@ -1,0 +1,21 @@
+.container {
+  background-color: red;
+}
+
+.label {
+  display: flex;
+}
+
+.date {
+  font-weight: bold;
+  width: 20%;
+}
+
+.tags {
+  display: flex;
+  font-weight: bold;
+}
+
+.tag {
+  margin-left: 1em;
+}
