@@ -1,18 +1,18 @@
 .icon {
-  margin: 0.15em 0.15em;
-  display: inline;
-  padding: 0.25em;
-  transition: 500ms;
-  border-radius: 50%;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
+	margin: 0.15em 0.15em;
+	display: inline;
+	padding: 0.25em;
+	transition: 500ms;
+	border-radius: 50%;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
 }
 
-.icon:hover {
-  background-color: #525252;
+.iconHover:hover {
+	background-color: #525252;
 }
 
 .clickable {
-  cursor: pointer;
+	cursor: pointer;
 }

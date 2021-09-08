@@ -5,31 +5,39 @@ import styles from "./styles.module.css";
 import openInNewTab from "../../constant/helper/openInNewTab";
 
 export interface IconProps {
-  size: number;
-  link?: string;
-  children: ReactElement;
+	size: number;
+	link?: string;
+	children: ReactElement;
+	hover?: boolean;
 }
 
-const Icon: React.FC<IconProps> = ({ size, link = null, children }) => {
-  const styling = {
-    fontSize: size,
-  };
+const Icon: React.FC<IconProps> = ({
+	size,
+	link = null,
+	children,
+	hover = false,
+}) => {
+	const styling = {
+		fontSize: size,
+	};
 
-  const handleClick = () => {
-    if (link) {
-      openInNewTab(link);
-    }
-  };
+	const handleClick = () => {
+		if (link) {
+			openInNewTab(link);
+		}
+	};
 
-  return (
-    <div
-      className={`${styles.icon} ${link ? styles.clickable : null}`}
-      style={styling}
-      onClick={handleClick}
-    >
-      {children}
-    </div>
-  );
+	return (
+		<div
+			className={`${styles.icon} ${link ? styles.clickable : null} ${
+				hover ? styles.iconHover : null
+			}`}
+			style={styling}
+			onClick={handleClick}
+		>
+			{children}
+		</div>
+	);
 };
 
 export default Icon;
