@@ -16,7 +16,8 @@ import {
 	SiFlask,
 } from "react-icons/si";
 import { TiMail } from "react-icons/ti";
-import { ImArrowUp } from "react-icons/im";
+// import { ImArrowUp } from "react-icons/im";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ReactElement } from "react";
@@ -26,7 +27,7 @@ type STACK_OPTIONS = {
 };
 
 export const DESIGN_STACK: STACK_OPTIONS = {
-	arrowUp: <ImArrowUp />,
+	arrowUp: <FaArrowAltCircleUp />,
 	close: <VscChromeClose />,
 	hamburgerMenu: <GiHamburgerMenu />,
 };
