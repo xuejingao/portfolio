@@ -5,17 +5,17 @@ import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 
 const LandingPage = () => {
-  return (
-    <>
-      <NavigationBar landing />
-      <Banner
-        displayIcons
-        title={"Xuejin Gao"}
-        description={"Software Engineer"}
-      />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<NavigationBar landing />
+			<Banner
+				displayIcons
+				title={"Xuejin Gao"}
+				description={"Software Engineer"}
+			/>
+			<Footer />
+		</>
+	);
 };
 
 export default LandingPage;
