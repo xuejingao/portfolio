@@ -23,7 +23,9 @@ const Icon: React.FC<IconProps> = ({ size, link = null, children }) => {
 
   return (
     <div
-      className={`${styles.icon} ${link ? styles.clickable : null}`}
+      className={`${styles.icon} ${link ? styles.clickable : null} ${
+        link ? styles.iconHover : null
+      }`}
       style={styling}
       onClick={handleClick}
     >
