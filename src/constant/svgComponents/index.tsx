@@ -19,6 +19,7 @@ import { TiMail } from "react-icons/ti";
 import { ImArrowUp } from "react-icons/im";
 import { VscChromeClose } from "react-icons/vsc";
 import { ReactElement } from "react";
+import { FaCcAmex } from "react-icons/fa";
 
 type STACK_OPTIONS = {
   [key: string]: ReactElement;
@@ -49,4 +50,8 @@ export const CONTACT_STACK: STACK_OPTIONS = {
   linkedin: <SiLinkedin />,
   mail: <TiMail />,
   github: <SiGithub />,
+};
+
+export const EXTRA_STACK: STACK_OPTIONS = {
+  amex: <FaCcAmex />,
 };
