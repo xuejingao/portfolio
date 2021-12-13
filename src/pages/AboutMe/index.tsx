@@ -1,5 +1,7 @@
 import React from "react";
 
+// import { useMediaQuery } from "react-responsive";
+
 import NavigationBar from "../../components/NavigationBar";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
@@ -10,11 +12,21 @@ import EXPERIENCE_DATA from "../../constant/data/experiences.json";
 import EXTRACURRICULAR_DATA from "../../constant/data/extracurricular.json";
 import EDUCATION_DATA from "../../constant/data/education.json";
 
+// import { DeviceType } from "../../constant/types/DeviceType";
+
 const experience = EXPERIENCE_DATA["experience"];
 const extracurriculars = EXTRACURRICULAR_DATA["extracurriculars"];
 const education = EDUCATION_DATA["education"];
 
 const AboutMePage = () => {
+  // const isTabletDevice: boolean = useMediaQuery({
+  //   query: "(max-width: 767px)",
+  // });
+
+  // const deviceType: DeviceType = isTabletDevice
+  //   ? DeviceType.MOBILE
+  //   : DeviceType.DESKTOP;
+
   return (
     <>
       <NavigationBar about />

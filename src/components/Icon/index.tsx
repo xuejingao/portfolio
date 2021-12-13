@@ -8,6 +8,7 @@ export interface IconProps {
   size: number;
   link?: string;
   children: ReactElement;
+  hover?: boolean;
 }
 
 const Icon: React.FC<IconProps> = ({ size, link = null, children }) => {
