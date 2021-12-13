@@ -11,7 +11,7 @@ const LandingPage = () => {
       <Banner
         displayIcons
         title={"Xuejin Gao"}
-        description={"Software Engineer"}
+        description={"Software Engineer @ Amex"}
       />
       <Footer />
     </>
